@@ -1,0 +1,11 @@
+algorithm,model,n_instances,n_features,train_r2,loocv_r2,loocv_rmse,note
+tatt,linear_standardized,11,8,0.6006186042830719,-226.21023788528439,1.0705834682405737,Amostra pequena (tipicamente <= 16 instâncias): resultados de LOOCV e modelos multivariados têm alta variância e caráter exploratório.
+tatt,decision_tree_d3,11,8,0.8853001060662908,-1.3860065686718142,0.10970903678253034,Amostra pequena (tipicamente <= 16 instâncias): resultados de LOOCV e modelos multivariados têm alta variância e caráter exploratório.
+christofides,linear_standardized,11,8,0.9628870733966756,-16.222751143953307,0.1656038314475128,Amostra pequena (tipicamente <= 16 instâncias): resultados de LOOCV e modelos multivariados têm alta variância e caráter exploratório.
+christofides,decision_tree_d3,11,8,0.8980449272115256,-1.0151836018027542,0.05664693645116556,Amostra pequena (tipicamente <= 16 instâncias): resultados de LOOCV e modelos multivariados têm alta variância e caráter exploratório.
+nn,linear_standardized,11,8,0.9524486332205048,-24.294436152251027,0.44535687206829555,Amostra pequena (tipicamente <= 16 instâncias): resultados de LOOCV e modelos multivariados têm alta variância e caráter exploratório.
+nn,decision_tree_d3,11,8,0.9436706778224968,-0.06969295100669548,0.09158518428381607,Amostra pequena (tipicamente <= 16 instâncias): resultados de LOOCV e modelos multivariados têm alta variância e caráter exploratório.
+hull,linear_standardized,11,8,0.8514075778111039,-34.3427909606024,0.1555012882356695,Amostra pequena (tipicamente <= 16 instâncias): resultados de LOOCV e modelos multivariados têm alta variância e caráter exploratório.
+hull,decision_tree_d3,11,8,0.8568457768417452,-0.455628245298102,0.031557951711703065,Amostra pequena (tipicamente <= 16 instâncias): resultados de LOOCV e modelos multivariados têm alta variância e caráter exploratório.
+christofides_greedy,linear_standardized,11,8,0.9089383082191754,-6.82563076350286,0.21210221677603208,Amostra pequena (tipicamente <= 16 instâncias): resultados de LOOCV e modelos multivariados têm alta variância e caráter exploratório.
+christofides_greedy,decision_tree_d3,11,8,0.9831162282917878,-0.32177806544537013,0.08716954949061578,Amostra pequena (tipicamente <= 16 instâncias): resultados de LOOCV e modelos multivariados têm alta variância e caráter exploratório.

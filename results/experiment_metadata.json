@@ -1,0 +1,37 @@
+{
+  "started_at_utc": "2026-11-24T21:41:01Z",
+  "finished_at_utc": "2026-11-24T21:41:01Z",
+  "wall_time_s": 0.115,
+  "git_commit": "c148fce",
+  "hardware": {
+    "os": "Linux 6.18.57",
+    "machine": "x86_64",
+    "cpu_model": "Intel(R) Xeon(R) CPU @ 2.30GHz",
+    "cpu_count": 2,
+    "ram_total_gb": 7.77
+  },
+  "software": {
+    "python": "3.12.16",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "networkx": "3.7",
+    "sklearn": "1.9.1",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2"
+  },
+  "config": {
+    "time_limit_s": 60.0,
+    "hard_grace_s": 30.0,
+    "reps": 10,
+    "search": "dfs",
+    "bound": "one_tree",
+    "workers": 2,
+    "mem_bnb_max_n": 18,
+    "include_ablation": true,
+    "max_n": null,
+    "instances_subset": null,
+    "resume": true,
+    "extra_sizes": false,
+    "instances_count": 16
+  }
+}

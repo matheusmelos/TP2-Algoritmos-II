@@ -1,0 +1,50 @@
+{
+  "results_dir": "results",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "checks": {
+    "runs_schema_ok": true,
+    "runs_total_rows": 1040,
+    "profile_schema_ok": true,
+    "profile_total_rows": 2800,
+    "features_schema_ok": true,
+    "features_instances": 16,
+    "optima_consistent": true,
+    "bnb_ok_instances": 10,
+    "timeout_rows": 32,
+    "timeout_na_cost_gap_ok": true,
+    "timeout_partial_counters_ok": true,
+    "approx_bounds_ok": true,
+    "sanity_chris_le_trivial_expanded": {
+      "passed_instances": 9,
+      "total_comparable": 9,
+      "ratio": 1.0
+    },
+    "sanity_chris_le_tatt_gap": {
+      "passed_instances": 13,
+      "total_comparable": 13,
+      "ratio": 1.0
+    },
+    "missing_tables": [],
+    "figures_count": 16,
+    "figures_list": [
+      "complexity_algorithms_memory.png",
+      "complexity_algorithms_time.png",
+      "complexity_subroutines_memory.png",
+      "complexity_subroutines_memory_fits.png",
+      "complexity_subroutines_time.png",
+      "complexity_subroutines_time_fits.png",
+      "sensitivity_linear_coefs.png",
+      "sensitivity_spearman_heatmap.png",
+      "sensitivity_tree_christofides.png",
+      "sensitivity_tree_christofides_greedy.png",
+      "sensitivity_tree_hull.png",
+      "sensitivity_tree_nn.png",
+      "sensitivity_tree_tatt.png",
+      "warmstart_collapse.png",
+      "warmstart_nodes.png",
+      "warmstart_tradeoff.png"
+    ]
+  }
+}

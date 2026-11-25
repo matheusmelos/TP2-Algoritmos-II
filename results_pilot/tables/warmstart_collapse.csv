@@ -1,0 +1,6 @@
+algorithm,warm_start,total_instances,ok_instances,timeout_instances,max_n_ok,first_timeout_n,timeout_names
+bnb_dfs_one_tree,trivial,16,8,8,30,20,"berlin52_random20,eil76_knn28,berlin52_window33,kroA100_random36,a280_knn40,eil51,berlin52,st70"
+bnb_dfs_one_tree,nn,16,8,8,30,20,"berlin52_random20,eil76_knn28,berlin52_window33,kroA100_random36,a280_knn40,eil51,berlin52,st70"
+bnb_dfs_one_tree,hull,16,8,8,30,20,"berlin52_random20,eil76_knn28,berlin52_window33,kroA100_random36,a280_knn40,eil51,berlin52,st70"
+bnb_dfs_one_tree,tatt,16,8,8,30,20,"berlin52_random20,eil76_knn28,berlin52_window33,kroA100_random36,a280_knn40,eil51,berlin52,st70"
+bnb_dfs_one_tree,christofides,16,8,8,30,20,"berlin52_random20,eil76_knn28,berlin52_window33,kroA100_random36,a280_knn40,eil51,berlin52,st70"
