@@ -1,0 +1,17 @@
+name,n,source,mode,seed,optimal_ref,file
+eil51_random12,12,eil51,random,2026,,eil51_random12.tsp
+berlin52_knn14,14,berlin52,knn,2026,,berlin52_knn14.tsp
+pr76_random16,16,pr76,random,2026,,pr76_random16.tsp
+eil76_window18,18,eil76,window,2026,,eil76_window18.tsp
+berlin52_random20,20,berlin52,random,2026,,berlin52_random20.tsp
+kroA100_knn22,22,kroA100,knn,2026,,kroA100_knn22.tsp
+a280_window24,24,a280,window,2026,,a280_window24.tsp
+ch130_random26,26,ch130,random,2026,,ch130_random26.tsp
+eil76_knn28,28,eil76,knn,2026,,eil76_knn28.tsp
+pr76_window30,30,pr76,window,2026,,pr76_window30.tsp
+berlin52_window33,33,berlin52,window,2026,,berlin52_window33.tsp
+kroA100_random36,36,kroA100,random,2026,,kroA100_random36.tsp
+a280_knn40,40,a280,knn,2026,,a280_knn40.tsp
+eil51,51,eil51,full,,426,eil51.tsp
+berlin52,52,berlin52,full,,7542,berlin52.tsp
+st70,70,st70,full,,675,st70.tsp
