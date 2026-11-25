@@ -71,7 +71,6 @@ TP2_ALG2/
 ├── tests/                    # Suíte de testes unitários e de integração (pytest)
 ├── results/                  # Resultados consolidados, tabelas, figuras e análises
 ├── results_pilot/            # Rodada piloto preliminar (20 s)
-├── PLANO.md                  # Plano de implementação e checklist do projeto
 ├── pytest.ini
 ├── requirements.txt
 └── tp2.pdf                   # Enunciado oficial do trabalho
