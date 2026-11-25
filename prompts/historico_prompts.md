@@ -1,6 +1,6 @@
 # Anexo – Histórico de Prompts e Registro de Uso de IA Generativa
 
-Este documento registra o uso de ferramentas de Inteligência Artificial (LLM) ao longo do desenvolvimento do Trabalho Prático 2 (DCC207 – Algoritmos 2), conforme exigido em [tp2.pdf](../tp2.pdf).
+Este documento registra o uso de ferramentas de Inteligência Artificial (LLM) ao longo do desenvolvimento do Trabalho Prático 2 (DCC207 – Algoritmos 2)
 
 ---
 
