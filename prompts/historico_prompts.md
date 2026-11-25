@@ -6,7 +6,6 @@ Este documento registra o uso de ferramentas de Inteligência Artificial (LLM) a
 
 ## 1. Planejamento Inicial e Autoria dos Alunos
 
-Todo o planejamento arquitetural do projeto ([PLANO.md](../PLANO.md)) foi elaborado previamente pelos alunos a partir da leitura e interpretação das exigências de [tp2.pdf](../tp2.pdf), definindo de forma autônoma:
 
 - A divisão do trabalho em contrato comum (Etapa 0: [common.py](../src/tsp/common.py)), busca exata/heurísticas/instâncias (Etapa 1 – Dev A), aproximações/features/modelagem estatística (Etapa 2 – Dev B) e integração/experimentos/relatório (Etapa 3).
 - A decisão metodológica de construir a faixa principal ($N \le 40$, 81% das 16 instâncias) a partir de sub-instâncias EUC\_2D recortadas de instâncias reais da TSPLIB com semente fixa e três modos de amostragem (`random`, `knn`, `window`), somadas às completas `eil51`, `berlin52` e `st70`, garantindo aderência estrita ao tipo `EUC_2D`.
@@ -51,8 +50,6 @@ A IA generativa foi empregada sob direção técnica dos alunos como assistente 
 ### Prompt 4 — Análise crítica e científica dos resultados em Markdown
 > **Prompt (síntese):**
 > *"A partir de todas as tabelas, gráficos e métricas coletadas em `results/` e `results_pilot/`, produza uma análise detalhada em Markdown (`results/ANALISE_RESULTADOS.md`) cobrindo auditoria de estruturas de dados e estratégias de busca, casos difíceis para a arguição (como `berlin52_random20` vs instâncias maiores), gargalo e ablação do Christofides, divergências entre complexidade teórica e empírica (incluindo curvas suplementares até $N=500$), impacto do warm-start e ponto de colapso, além da análise de sensibilidade (Spearman, regressão padronizada, árvore `max_depth=3`, LOOCV e instâncias adversariais)."*
-
-- **Artefato gerado:** [results/ANALISE_RESULTADOS.md](../results/ANALISE_RESULTADOS.md).
 
 ---
 
